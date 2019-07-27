@@ -5,62 +5,125 @@
   <meta charset="utf-8">
   <title>Andrea Tricoli</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="icons/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Nunito|Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Andrea.</h1>
-    <h2>a computer engineer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountain-img">
-  </div>
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile-image" src="images/profile.jpg" alt="profile-img">
+  <section id="title">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#hello">Hello</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <a class="nav-item nav-link" href="#cv">CV</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+            <a class="nav-item nav-link" href="#follow-me">Follow me</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Andrea.</h1>
+      <h2>a computer engineer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+
+    </div>
+  </section>
+
+  <section id="hello">
+    <div class="container-fluid container-fluid-custom">
+
+      <img class="profile-image img-fluid mx-auto d-block" src="images/profile.jpg" alt="profile-img">
       <h2>Hello.</h2>
-      <p class="intro">I am a Front-end and Back-end Developer. <br> I love travel 🌍, adventure 🦅, music 🎵, dance 💃 and sport 🏀.</p>
+      <p class="custom-sentence">I am a Front-end and Back-end Developer. <br> I love travel 🌍, adventure 🦅, music 🎵, dance 💃 and sport 🏀.</p>
+
     </div>
     <hr>
-    <div class="skills">
+  </section>
+
+
+  <section id="skills">
+    <div class="container-fluid container-fluid-custom">
+
       <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill-image" src="images/java_skill.svg" alt="java_skill-img">
-        <h3>Java</h3>
-      </div>
-      <div class="skill-row">
-        <img class="skill-image" src="images/html_skill.svg" alt="html_skill-img">
-        <h3>HTML</h3>
-      </div>
+      <!-- <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          One of three columns
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          One of three columns
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          One of three columns
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          One of three columns
+        </div>
+    </div>-->
+
     </div>
     <hr>
-    <div class="cv">
+  </section>
+
+
+  <section id="cv">
+    <div class="container-fluid container-fluid-custom">
+
       <h2>Find out more</h2>
-      <h3 class="contact-message">Look at my experiences and all my skills. Download MY CV</h3>
-      <img class="download-image" src="images/row.gif" alt="row-img">
-      <a class="btn" href="documents/andrea_tricoli_CV.pdf" target="_blank">MY CV</a>
+      <h3 class="custom-sentence">Look at my experiences and all my skills. Download MY CV</h3>
+      <img class="download-image" src="icons/row.gif" alt="row-img">
+      <a class="btn btn-dark btn-lg" href="documents/andrea_tricoli_CV.pdf" target="_blank">MY CV</a>
+
     </div>
     <hr>
-    <div class="contact-me">
+  </section>
+
+
+  <section id="contact">
+    <div class="container-fluid container-fluid-custom">
+
       <h2>Get In Touch</h2>
-      <h3 class="contact-message">From a small gesture, great things can be born.</h3>
-      <a class="btn" href="mailto:tricoli.andrea@gmail.com">CONTACT ME</a>
+      <h3 class="custom-sentence">From a small gesture, great things can be born.</h3>
+      <a class="btn btn-dark btn-lg" href="mailto:tricoli.andrea@gmail.com">CONTACT ME</a>
+
     </div>
-  </div>
+  </section>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/andrea-tricoli/" target="_blank" >
-      <img class="contact-me-icon" src="images/linkedin_logo.svg" alt="linkedin-logo-img">
-    </a>
-    <a class="footer-link" href="https://www.instagram.com/andrea.tricoli/" target="_blank">
-      <img class="contact-me-icon" src="images/instagram_logo.svg" alt="instagram-logo-img">
-    </a>
-    <p class="copyright">© 2019 Andrea Tricoli.</p>
-  </div>
+
+
+  <section id="follow-me">
+    <div class="container-fluid">
+
+          <h2>Follow me</h2>
+          <a class="follow-me-icon" href="https://www.linkedin.com/in/andrea-tricoli/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="follow-me-icon" href="https://www.instagram.com/andrea.tricoli/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+      </div>
+      <p class="copyright">© 2019 Andrea Tricoli.</p>
+
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/cb4ddc7b2e.js"></script>
 </body>
 
 </html>

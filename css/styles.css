@@ -1,16 +1,23 @@
+#title {
+  background-color: #00adb5;
+}
+
+#follow-me {
+  background-color: #00adb5;
+}
+
 body {
-  margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #eeeeee;
-  color: #393e46;
+  margin: 0;
 }
 
 h1 {
   font-size: 5.625rem;
-  margin: 2.6rem auto 0 auto;
   font-family: 'Montserrat', sans-serif;
   color: #222831;
+  font-weight: bold;
 }
 
 h2 {
@@ -18,7 +25,7 @@ h2 {
   font-size: 2.5rem;
   color: #222831;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding: 2rem 0;
 }
 
 h3 {
@@ -26,14 +33,25 @@ h3 {
   color: #393e46;
 }
 
-a{
-  color: #393e46;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
+.container-fluid {
+  padding: 3% 15%;
 }
 
-p{
-  line-height: 2;
+.container-fluid-custom{
+  padding: 10% 15%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.profile-image {
+  border-radius: 100%;
+  width: 35%;
 }
 
 hr{
@@ -43,87 +61,9 @@ hr{
   margin: 100px auto;
 }
 
-.top-container {
-  background-color: #00adb5;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-container {
-  margin: 100px 0;
-}
-
-.bottom-container{
-  background-color: #00adb5;
-  padding: 50px 0 20px;
-}
-
-.contact-me-icon{
-  width: 5%;
-  display: inline-block;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.profile-image{
-  border-radius: 100%;
-  width: 15%;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
-.skill-image{
-  width: 10%;
-  float: left;
-  margin-right: 30px;
-}
-
-.btn {
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  background: #222831;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #393e46;
-  text-decoration: none;
-}
-
-.intro{
-  width: 30%;
-  margin: auto;
-}
-
-.contact-message{
-  width: 30%;
-  margin: auto;
-  padding-bottom: 75px;
-}
-
-.copyright{
-  font-size: 0.75rem;
-  padding: 20px 0;
-  color: #eeeeee;
+p{
+  line-height: 2;
+  font-size: 1.2rem;
 }
 
 .download-image{
@@ -131,4 +71,20 @@ hr{
   margin: auto;
   display: block;
   padding-bottom: 25px;
+}
+
+.follow-me-icon{
+  font-size: 3.5rem;
+  color: #222831;
+}
+
+.custom-sentence{
+  width: 50%;
+  font-size: 1.5rem;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.btn-lg{
+  padding: 1.5rem 3rem;
 }
