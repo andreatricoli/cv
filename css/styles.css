@@ -116,6 +116,8 @@ hr{
 
 .contact-message{
   padding-bottom: 75px;
+  width: 30%;
+  margin: auto;
 }
 
 .copyright{
