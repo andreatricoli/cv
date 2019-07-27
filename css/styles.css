@@ -115,13 +115,20 @@ hr{
 }
 
 .contact-message{
-  padding-bottom: 75px;
   width: 30%;
   margin: auto;
+  padding-bottom: 75px;
 }
 
 .copyright{
   font-size: 0.75rem;
   padding: 20px 0;
   color: #eeeeee;
+}
+
+.download-image{
+  width: 7.5%;
+  margin: auto;
+  display: block;
+  padding-bottom: 25px;
 }
