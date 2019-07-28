@@ -4,6 +4,12 @@
 
 #follow-me {
   background-color: #00adb5;
+  padding-bottom: 5%;
+}
+
+#skills{
+  background-color: #393e46;
+  color: #eeeeee;
 }
 
 body {
@@ -58,7 +64,7 @@ hr {
   border: dotted #393e46 6px;
   border-bottom: none;
   width: 5%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 p {
@@ -70,7 +76,6 @@ p {
   width: 7.5%;
   margin: auto;
   display: block;
-  padding-bottom: 25px;
 }
 
 .follow-me-icon {
@@ -82,9 +87,29 @@ p {
   width: 50%;
   font-size: 1.5rem;
   margin: auto;
-  padding-bottom: 3rem;
 }
 
 .btn-lg {
   padding: 1.5rem 3rem;
+}
+
+.feature-box{
+  color: #eeeeee;
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #eeeeee;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #eeeeee;
+}
+
+.skills-title{
+  color: #eeeeee;
+  margin-bottom: 2rem;
+  font-weight: 900;
 }
