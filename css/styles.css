@@ -4,7 +4,7 @@
 
 #follow-me {
   background-color: #00adb5;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 #skills{
@@ -24,6 +24,8 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   color: #222831;
   font-weight: bold;
+  line-height: 2;
+  margin: 0;
 }
 
 h2 {
@@ -32,32 +34,15 @@ h2 {
   color: #222831;
   font-weight: normal;
   padding: 2rem 0;
+  line-height: 2;
+  margin: 0;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #393e46;
-}
-
-.container-fluid {
-  padding: 3% 15%;
-}
-
-.container-fluid-custom {
-  padding: 10% 15%;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-}
-
-.profile-image {
-  border-radius: 100%;
-  width: 35%;
+  line-height: 2;
+  font-size: 1.6rem;
 }
 
 hr {
@@ -70,6 +55,32 @@ hr {
 p {
   line-height: 2;
   font-size: 1.2rem;
+}
+
+.subtitle{
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.container-fluid-custom {
+  padding: 10% 15%;
+}
+
+.nav-item {
+  padding: 5px 18px;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+}
+
+.profile-image {
+  border-radius: 100%;
+  width: 35%;
 }
 
 .download-image {
@@ -85,12 +96,22 @@ p {
 
 .custom-sentence {
   width: 50%;
-  font-size: 1.5rem;
   margin: auto;
 }
 
 .btn-lg {
   padding: 1.5rem 3rem;
+}
+
+.btn-custom{
+  background-color: #393e46;
+  color: #eeeeee;
+  font-size: 1.4rem;
+}
+
+.btn:hover{
+  background-color: #222831;
+  color: #eeeeee;
 }
 
 .feature-box{
@@ -112,4 +133,23 @@ p {
   color: #eeeeee;
   margin-bottom: 2rem;
   font-weight: 900;
+}
+
+.copyright{
+  margin-top: 3rem;
+}
+
+.fab{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.custom-sentence-skills {
+}
+
+@media screen and (max-width: 992px) {
+  .custom-sentence-skills {
+    width: 50%;
+    margin: auto;
+  }
 }
