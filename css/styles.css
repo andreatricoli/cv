@@ -1,6 +1,5 @@
 #carousel {
   background-color: #00adb5;
-  height: 500px;
 }
 
 #follow-me {
@@ -147,6 +146,7 @@ a {
 
 .carousel-item{
   padding: 7% 15%;
+  height: 778px;
 }
 
 @media screen and (max-width: 992px) {
@@ -207,5 +207,13 @@ a {
 
   body{
     padding-top: 123px;
+  }
+
+  .carousel-item{
+    height: 853px;
+  }
+  .fab{
+    font-size: 80px;
+
   }
 }
