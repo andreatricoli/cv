@@ -1,5 +1,6 @@
-#title {
+#carousel {
   background-color: #00adb5;
+  height: 500px;
 }
 
 #follow-me {
@@ -17,6 +18,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #eeeeee;
   margin: 0;
+  padding-top: 56px;
 }
 
 h1 {
@@ -57,6 +59,10 @@ p {
   font-size: 1.2rem;
 }
 
+a {
+  color: #eeeeee;
+}
+
 .subtitle{
   padding: 0;
   margin-bottom: 2rem;
@@ -68,14 +74,6 @@ p {
 
 .container-fluid-custom {
   padding: 10% 15%;
-}
-
-.nav-item {
-  padding: 5px 18px;
-}
-
-.nav-link {
-  font-size: 1.6rem;
 }
 
 .profile-image {
@@ -147,9 +145,67 @@ p {
 .custom-sentence-skills {
 }
 
+.carousel-item{
+  padding: 7% 15%;
+}
+
 @media screen and (max-width: 992px) {
   .custom-sentence-skills {
     width: 50%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .navbar-collapse {
+     height: 100vh;
+     text-align: left;
+     text-size: 3rem;
+     margin: 5rem 0;
+   }
+
+  .nav-link{
+     margin-left: 0;
+     font-size: 2.5rem;
+     margin-top: 3rem;
+   }
+
+   .fixed-top{
+     padding: 2rem;
+   }
+
+   .navbar-toggler-icon{
+     width: 3rem;
+     height: 3rem;
+   }
+}
+
+@media screen and (max-width: 992px){
+  h1 {
+    font-size: 6.2rem;
+  }
+
+  h2 {
+    font-size: 3.1rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .btn-custom{
+    font-size: 2rem;
+  }
+
+  .download-image {
+    width: 12%;
+  }
+
+  body{
+    padding-top: 123px;
   }
 }
