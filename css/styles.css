@@ -7,7 +7,7 @@
   padding-bottom: 1%;
 }
 
-#skills{
+#skills {
   background-color: #393e46;
   color: #eeeeee;
 }
@@ -66,7 +66,7 @@ a {
   color: #eeeeee;
 }
 
-.subtitle{
+.subtitle {
   padding: 0;
   margin-bottom: 2rem;
 }
@@ -104,24 +104,24 @@ a {
   padding: 1.5rem 3rem;
 }
 
-.btn-custom{
+.btn-custom {
   background-color: #393e46;
   color: #eeeeee;
   font-size: 1.4rem;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #222831;
   color: #eeeeee;
 }
 
-.feature-box{
+.feature-box {
   color: #eeeeee;
   text-align: center;
   padding: 5%;
 }
 
-.icon{
+.icon {
   color: #eeeeee;
   margin-bottom: 1rem;
 }
@@ -130,95 +130,92 @@ a {
   color: #eeeeee;
 }
 
-.skills-title{
+.skills-title {
   color: #eeeeee;
   margin-bottom: 2rem;
   font-weight: 900;
 }
 
-.copyright{
+.copyright {
   margin-top: 3rem;
 }
 
-.fab{
+.fab {
   margin-right: 0.5rem;
   margin-left: 0.5rem;
 }
 
-.custom-sentence-skills {
-}
+.custom-sentence-skills {}
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
-  #height: 805px;
 }
 
+.carousel-inner{
+  height: 850px;
+}
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .navbar-collapse {
-     height: calc(100vh - 50px);
-     text-align: left;
-     text-size: 3rem;
-     margin: 5rem 0;
-   }
+    height: calc(100vh - 50px);
+    text-align: left;
+    text-size: 3rem;
+    margin: 5rem 0;
+  }
 
-  .nav-link{
-     margin-left: 0;
-     font-size: 2.5rem;
-     margin-top: 3rem;
-   }
+  .nav-link {
+    margin-left: 0;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
 
-   .fixed-top{
-     padding: 2rem;
-   }
+  .fixed-top {
+    padding: 2rem;
+  }
 
-   .navbar-toggler-icon{
-     width: 3rem;
-     height: 3rem;
-   }
+  .navbar-toggler-icon {
+    width: 3rem;
+    height: 3rem;
+  }
 
-   h1 {
-     font-size: 6.2rem;
-   }
+  h1 {
+    font-size: 6.2rem;
+  }
 
-   h2 {
-     font-size: 3.1rem;
-   }
+  h2 {
+    font-size: 3.1rem;
+  }
 
-   h3 {
-     font-size: 2.2rem;
-   }
+  h3 {
+    font-size: 2.2rem;
+  }
 
-   p {
-     font-size: 1.8rem;
-   }
+  p {
+    font-size: 1.8rem;
+  }
 
-   .btn-custom{
-     font-size: 2rem;
-   }
+  .btn-custom {
+    font-size: 2rem;
+  }
 
-   .download-image {
-     width: 12%;
-   }
+  .download-image {
+    width: 12%;
+  }
 
-   body{
-     padding-top: 123px;
-   }
+  body {
+    padding-top: 123px;
+  }
 
-   .carousel-item{
-     #height: 853px;
-   }
+  .fab {
+    font-size: 80px;
+  }
 
-   .fab{
-     font-size: 80px;
-   }
+  .custom-sentence-skills {
+    width: 50%;
+    margin: auto;
+  }
 
-   .custom-sentence-skills {
-     width: 50%;
-     margin: auto;
-   }
-
-   .profile-image {
-     width: 45%;
-   }
+  .profile-image {
+    width: 45%;
+  }
 }
