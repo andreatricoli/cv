@@ -12,6 +12,10 @@
   color: #eeeeee;
 }
 
+#cv {
+  background-color: white;
+}
+
 body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -152,7 +156,7 @@ a {
 
 @media screen and (max-width: 992px){
   .navbar-collapse {
-     height: 100vh;
+     height: calc(100vh - 50px);
      text-align: left;
      text-size: 3rem;
      margin: 5rem 0;
@@ -204,14 +208,17 @@ a {
    .carousel-item{
      #height: 853px;
    }
-   
+
    .fab{
      font-size: 80px;
-
    }
 
    .custom-sentence-skills {
      width: 50%;
      margin: auto;
+   }
+
+   .profile-image {
+     width: 45%;
    }
 }
