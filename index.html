@@ -1,167 +1,59 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
 
+<html>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144690379-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-144690379-1');
-  </script>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="user-scalable=0" />
   <title>Andrea Tricoli</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="icons/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Nunito|Sacramento&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="user-scalable=0" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <section id="navbar">
-    <nav class="navbar navbar-dark fixed-top navbar-expand-lg" style="background-color: #393e46;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto mr-auto">
-          <a class="nav-item nav-link mr-5 ml-5" style="color: #eeeeee;" data-toggle="collapse" data-target=".navbar-collapse.show" href="#hello">Hello</a>
-          <a class="nav-item nav-link mr-5 ml-5" style="color: #eeeeee;" data-toggle="collapse" data-target=".navbar-collapse.show" href="#skills">Skills</a>
-          <a class="nav-item nav-link mr-5 ml-5" style="color: #eeeeee;" data-toggle="collapse" data-target=".navbar-collapse.show" href="#cv">CV</a>
-          <a class="nav-item nav-link mr-5 ml-5" style="color: #eeeeee;" data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact">Contact</a>
-          <a class="nav-item nav-link mr-5 ml-5" style="color: #eeeeee;" data-toggle="collapse" data-target=".navbar-collapse.show" href="#follow-me">Follow me</a>
-        </div>
-      </div>
-    </nav>
-  </section>
-
-  <section id="carousel">
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/cloud.png" alt="cloud-image">
-          <h1>I'm Andrea.</h1>
-          <h2 class="subtitle">a computer engineer.</h2>
-          <img src="images/cloud.png" alt="cloud-image">
-          <img src="images/mountain.png" alt="mountain-image">
-        </div>
-        <div class="carousel-item">
-          <h2><cite>“First, solve the problem. Then, write the code.”</cite><br> – John Johnson</h2>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
-  </section>
-
-  <section id="hello">
-    <div class="container-fluid container-fluid-custom">
-
-      <img class="profile-image img-fluid mx-auto d-block" src="images/profile.jpg" alt="profile-img">
-      <h2>Hello.</h2>
-      <h3 class="custom-sentence">I am a Front-end and Back-end Developer. <br> I love travel 🌍, adventure 🦅, music 🎵, dance 💃 and sport 🏀.</h3>
-
-    </div>
-    <!-- <hr> -->
-  </section>
-
-
-  <section id="skills">
-    <div class="container-fluid container-fluid-custom">
-
-      <h2 style="color: #eeeeee">My Skills.</h2>
-      <div class="row">
-        <div class="feature-box col-sm-12 col-md-12 col-lg-4">
-          <i class="icon fas fa-users fa-4x"></i>
-          <h3 class="skills-title">Teamwork.</h3>
-          <p class="custom-sentence-skills">Working well with others, creating a good working environment for me is fundamental.</p>
-        </div>
-        <div class="feature-box col-sm-12 col-md-12 col-lg-4">
-          <i class="icon fas fa-lightbulb fa-4x"></i>
-          <h3 class="skills-title">Problem solving.</h3>
-          <p class="custom-sentence-skills">When I approach a new problem, always I view it objectively.</p>
-        </div>
-        <div class="feature-box col-sm-12 col-md-12 col-lg-4">
-          <i class="icon fas fa-laptop-code fa-4x"></i>
-          <h3 class="skills-title">Software development.</h3>
-          <p class="custom-sentence-skills">I love to develop fantastic application.</p>
-        </div>
-      </div>
-
-    </div>
-    <!-- <hr> -->
-  </section>
-
-
-  <section id="cv">
-    <div class="container-fluid container-fluid-custom">
-
-      <h2>Find out more.</h2>
-      <h3 class="custom-sentence">Look at my experiences and all my skills.<br> Download MY CV</h3>
-      <img class="download-image mt-5" src="icons/row.gif" alt="row-img">
-      <a class="btn btn-lg mt-5 btn-custom" href="documents/andrea_tricoli_CV.pdf" target="_blank">MY CV</a>
-
-    </div>
-
-  </section>
-
-  <!-- <hr> -->
-
-  <section id="contact">
-    <div class="container-fluid container-fluid-custom">
-
-      <h2>Get In Touch.</h2>
-      <h3 class="custom-sentence">From a small gesture, great things can be born.</h3>
-      <img class="download-image mt-5" src="icons/row.gif" alt="row-img">
-      <a class="btn btn-lg mt-5 btn-custom" href="mailto:tricoli.andrea@gmail.com">CONTACT ME</a>
-
-    </div>
-  </section>
-
-
-
-
-  <section id="follow-me">
-    <div class="container-fluid">
-
-      <h2>Follow me.</h2>
-      <a class="follow-me-icon" href="https://www.linkedin.com/in/andrea-tricoli/" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a class="follow-me-icon" href="https://www.instagram.com/andrea.tricoli/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a class="follow-me-icon" href="https://www.facebook.com/andrea.tricoli91" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-
-    </div>
-    <p class="copyright">© 2019 Andrea Tricoli.</p>
-
-    </div>
-  </section>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/cb4ddc7b2e.js"></script>
+	<div class="container">
+		
+		<div class="section header">
+			<h1 style="color: red">WIP - WORK IN PROGRESS</h1>
+			<h1>Hi, I'm Andrea.</h1>
+			<p>a computer engineer.</p>
+			<img class="profile-image" src="img/profile.jpg" />
+			<p>Learn more.</p>
+		</div>
+		
+		<div class="section">
+			<h1>Find out more.</h1>
+			<p>Look at my experiences and all my skills.<br> Download MY CV</p>
+			<img class="row-icon" src="img/row.gif" alt="row-icon"></img>
+			<br>
+			<a class="anchor-button" href="documents/andrea_tricoli_CV.pdf" target="_blank"><i class="far fa-file-alt"></i>MY CV</a>
+		</div>
+		
+		<div class="section get-in-touch-section">
+			<h1>Get In Touch.</h1>
+			<p>From a small gesture, great things can be born.</p>
+			<img class="row-icon" src="img/row.gif" alt="row-icon"></img>
+			<br>
+			<a class="anchor-button" href="mailto:tricoli.andrea@gmail.com"><i class="far fa-envelope"></i>CONTACT ME</a>
+		</div>
+		
+		<div class="section follow-me-section">
+			<h1>Follow me.</h1>
+			<a class="follow-me-icon" href="https://www.linkedin.com/in/andrea-tricoli" target="_blank">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a class="follow-me-icon" href="https://www.instagram.com/andrea.tricoli" target="_blank">
+				<i class="fab fa-instagram"></i>
+			</a>
+			<a class="follow-me-icon" href="https://www.facebook.com/andrea.tricoli91" target="_blank">
+				<i class="fab fa-facebook"></i>
+			</a>
+			<p>© 2020 Andrea Tricoli.</p>
+		</div>
+		
+	</div>
+<script src="https://kit.fontawesome.com/cb4ddc7b2e.js"></script>
 </body>
-
 </html>
