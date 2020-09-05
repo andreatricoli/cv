@@ -13,6 +13,7 @@ h1 {
 
 p {
 	font-size: 3rem;
+	line-height: 150%;
 }
 
 .section {
@@ -47,8 +48,13 @@ p {
     background-color: #393e46;
 	color: white;
     text-decoration: none;
-    padding: 5%;
+    padding: 10% 20%;
     border-radius: 1rem;
+}
+
+.info-section p {
+	width: 60%;
+	margin: auto;
 }
 
 .get-in-touch-section {
