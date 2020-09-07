@@ -87,6 +87,13 @@ p {
   text-decoration: none;
 }
 
+.contact-me-icon {
+  font-size: 15rem;
+  color: #393e46;
+  margin-top: 10rem;
+  text-decoration: none;
+}
+
 .info-section-icon{
 	margin-right: 1rem;
 }
