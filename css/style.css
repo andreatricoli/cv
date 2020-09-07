@@ -26,6 +26,7 @@ p {
 	height: 100vh;
 	text-align: center;
 	color: #222831;
+	background-color: #eeeeee;
 }
 
 .header {
@@ -89,8 +90,14 @@ p {
 	margin: auto;
 }
 
-.get-in-touch-section {
+.about input {
+	color: #393e46;
 	background-color: #eeeeee;
+}
+
+.get-in-touch-section {
+	background-color: #00adb5;
+	color: #eeeeee;
 }
 
 .follow-me-section {
