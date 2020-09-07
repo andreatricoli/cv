@@ -81,6 +81,7 @@ p {
     font-size: 125%;
 	font-weight: 700;
 	border-radius: 5px;
+	border-color: transparent;
 }
 
 .info-section p {
@@ -95,6 +96,7 @@ p {
 .follow-me-section {
 	background-color: #393e46;
 	color: #eeeeee;
+	position: relative;
 }
 
 .follow-me-icon {
