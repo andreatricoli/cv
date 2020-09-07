@@ -44,12 +44,17 @@ p {
 }
 
 .anchor-button {
-	font-size: 2.5rem;
-    background-color: #393e46;
-	color: white;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
     text-decoration: none;
-    padding: 10% 20%;
-    border-radius: 1rem;
+    color: white;
+	background: #393e46;
+    width: 100%;
+    padding: 10%;
+    font-size: 2.5rem;
+}
 }
 
 .info-section p {
@@ -72,3 +77,6 @@ p {
   margin: 1.5rem;
 }
 
+.info-section-icon{
+	margin-right: 1rem;
+}
