@@ -80,3 +80,8 @@ p {
 .info-section-icon{
 	margin-right: 1rem;
 }
+
+.author {
+	position: relative;
+	top: 70%;
+}
