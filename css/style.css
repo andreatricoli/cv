@@ -8,12 +8,17 @@
 
 h1 {
 	text-transform: uppercase;
-	font-size: 180%;
+	font-size: 220%;
 }
 
 p {
-	font-size: 125%;
+	font-size: 150%;
 	line-height: 150%;
+}
+
+.scroll-icon {
+	width: 30%;
+	margin: 0;
 }
 
 .section {
@@ -42,7 +47,7 @@ p {
 
 .profile-image {
 	border-radius: 100%;
-	width: 80%;
+	width: 85%;
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
@@ -81,7 +86,7 @@ p {
 }
 
 .follow-me-icon {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   margin: 1rem;
   text-decoration: none;
@@ -118,13 +123,24 @@ p {
 	h1 {
 	font-size: 360%;
 	}
+	
+	.header h1 {
+		margin: 5px;
+	}
+	
+	.scroll-icon {
+		width: 20%;
+	}
   
 	p {
 	font-size: 200%;
 	}
   
 	.profile-image {
-	  width: 60%;
+	  width: 55%;
+	  margin-bottom: 5%;
+	  margin-top: 5%;
+	  
 	}
   
 	.section {
@@ -169,7 +185,7 @@ p {
 	}
   
 	.profile-image {
-	  width: 70%;
+	  width: 55%;
 	}
   
 	.section {
@@ -218,7 +234,7 @@ p {
 	}
   
 	.section {
-	  padding: 5% 30%;
+	  padding: 2% 30%;
 	}
   
 	.anchor-button {
