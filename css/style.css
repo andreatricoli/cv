@@ -95,6 +95,12 @@ p {
 	background-color: #eeeeee;
 }
 
+.get-in-touch-section form > input {
+	color: #393e46;
+	background-color: #eeeeee;
+}
+
+
 .get-in-touch-section {
 	background-color: #00adb5;
 	color: #eeeeee;
