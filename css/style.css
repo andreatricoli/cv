@@ -31,6 +31,15 @@ p {
 	color: white;
 }
 
+.about {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/about_two.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/about_two.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	color: white;
+}
+
 .profile-image {
 	border-radius: 100%;
 	width: 80%;
@@ -54,7 +63,7 @@ p {
     width: 100%;
     padding: 10%;
     font-size: 2.5rem;
-}
+	font-weight: 700;
 }
 
 .info-section p {
@@ -75,13 +84,22 @@ p {
   font-size: 8rem;
   color: white;
   margin: 1.5rem;
+  text-decoration: none;
 }
 
 .info-section-icon{
 	margin-right: 1rem;
 }
 
-.author {
+.social-icons {
+	margin-top: 20%;
+}
+
+.footer {
 	position: relative;
-	top: 70%;
+	top: 40%;
+}
+
+.footer img {
+	margin-bottom: 5rem;
 }
