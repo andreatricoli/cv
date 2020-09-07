@@ -8,16 +8,16 @@
 
 h1 {
 	text-transform: uppercase;
-	font-size: 5rem;
+	font-size: 180%;
 }
 
 p {
-	font-size: 3.5rem;
+	font-size: 125%;
 	line-height: 150%;
 }
 
 .section {
-	padding: 80px 80px;
+	padding: 10% 10%;
 	height: 100vh;
 	text-align: center;
 }
@@ -48,7 +48,7 @@ p {
 }
 
 .row-icon {
-	width: 20%;
+	width: 25%;
 	margin: 10%
 }
 
@@ -62,7 +62,7 @@ p {
 	background: #393e46;
     width: 100%;
     padding: 10%;
-    font-size: 2.5rem;
+    font-size: 125%;
 	font-weight: 700;
 }
 
@@ -81,16 +81,17 @@ p {
 }
 
 .follow-me-icon {
-  font-size: 8rem;
+  font-size: 2.5rem;
   color: white;
-  margin: 1.5rem;
+  margin: 1rem;
   text-decoration: none;
 }
 
 .contact-me-icon {
-  font-size: 15rem;
+  font-size: 4rem;
   color: #393e46;
-  margin-top: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-decoration: none;
 }
 
@@ -104,9 +105,145 @@ p {
 
 .footer {
 	position: relative;
-	top: 40%;
+	top: 35%;
 }
 
 .footer img {
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
+	width: 60%;
+}
+
+@media only screen and (min-width: 768px) {
+  
+	h1 {
+	font-size: 360%;
+	}
+  
+	p {
+	font-size: 200%;
+	}
+  
+	.profile-image {
+	  width: 60%;
+	}
+  
+	.section {
+	  padding: 5% 15%;
+	}
+  
+	.anchor-button {
+	  padding: 6%;
+	  font-size: 200%;
+	}
+  
+	.row-icon {
+		width: 15%;
+		margin: 5%;
+	}
+	
+	.social-icons {
+		margin-top: 10%;
+	}
+	
+	.follow-me-icon {
+		font-size: 4.5rem;
+	}
+	
+	.footer {
+		top: 25%;
+	}
+	
+	.footer img {
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+  
+	h1 {
+	font-size: 360%;
+	}
+  
+	p {
+	font-size: 200%;
+	}
+  
+	.profile-image {
+	  width: 70%;
+	}
+  
+	.section {
+	  padding: 5% 25%;
+	}
+  
+	.anchor-button {
+	  padding: 6%;
+	  font-size: 200%;
+	}
+  
+	.row-icon {
+		width: 15%;
+		margin: 5%;
+	}
+	
+	.social-icons {
+		margin-top: 10%;
+	}
+	
+	.follow-me-icon {
+		font-size: 4.5rem;
+	}
+	
+	.footer {
+		top: 25%;
+	}
+	
+	.footer img {
+		width: 35%;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+  
+	h1 {
+	font-size: 360%;
+	}
+  
+	p {
+	font-size: 200%;
+	}
+  
+	.profile-image {
+	  width: 50%;
+	}
+  
+	.section {
+	  padding: 5% 30%;
+	}
+  
+	.anchor-button {
+	  padding: 6%;
+	  font-size: 200%;
+	}
+  
+	.row-icon {
+		width: 15%;
+		margin: 5%;
+	}
+	
+	.social-icons {
+		margin-top: 10%;
+	}
+	
+	.follow-me-icon {
+		font-size: 4.5rem;
+	}
+	
+	.footer {
+		top: 20%;
+	}
+	
+	.footer img {
+		width: 35%;
+	}
 }
