@@ -114,9 +114,7 @@ p {
 	color: #eeeeee;
 }
 
-@media (max-width: @iphone-screen) {
-    background-size:scroll;
-  }
+@supports (-webkit-overflow-scrolling: touch) { 	body *: { 		background-attachment: scroll; 	} }
 
 .follow-me-section {
 	background-color: #393e46;
