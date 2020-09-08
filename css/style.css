@@ -52,6 +52,9 @@ p {
 	width: 85%;
 	margin-top: 10%;
 	margin-bottom: 10%;
+	    animation-name: moveInDown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;	
 }
 
 .row-icon {
@@ -304,4 +307,65 @@ p {
 	.footer img {
 		width: 35%;
 	}
+}
+
+
+.heading-primary-main {
+	animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub {
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;	
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
