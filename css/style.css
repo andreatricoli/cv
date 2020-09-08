@@ -54,7 +54,8 @@ p {
 	margin-bottom: 10%;
 	    animation-name: moveInDown;
     animation-duration: 1s;
-    animation-timing-function: ease-out;	
+    animation-timing-function: ease-out;
+	backface-visibility: hidden;
 }
 
 .row-icon {
@@ -314,12 +315,14 @@ p {
 	animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+	    backface-visibility: hidden;
 }
 
 .heading-primary-sub {
     animation-name: moveInRight;
     animation-duration: 1s;
     animation-timing-function: ease-out;	
+	    backface-visibility: hidden;
 }
 
 @keyframes moveInLeft {
