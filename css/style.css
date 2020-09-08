@@ -325,6 +325,13 @@ p {
 	    backface-visibility: hidden;
 }
 
+.arrow-box {
+		    animation-name: moveInTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;	
+	    backface-visibility: hidden;
+}
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
@@ -365,6 +372,22 @@ p {
 
     80% {
         transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
     }
 
     100% {
