@@ -109,16 +109,14 @@ p {
 		background-image: -webkit-linear-gradient(rgb(0, 173, 181, 0.8), rgb(0, 173, 181, 0.8)), url(../img/contact.jpg);
     background-image: linear-gradient(rgba(0, 173, 181, 0.8), rgba(0, 173, 181, 0.8)), url(../img/contact.jpg);
     background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	@media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
     background-position: center;
     background-attachment: fixed;
 	color: #eeeeee;
 }
+
+@media (max-width: @iphone-screen) {
+    background-size:scroll;
+  }
 
 .follow-me-section {
 	background-color: #393e46;
