@@ -106,15 +106,13 @@ p {
 
 
 .get-in-touch-section {
-		background-image: -webkit-linear-gradient(rgb(0, 173, 181, 0.8), rgb(0, 173, 181, 0.8)), url(../img/contact.jpg);
+	background-image: -webkit-linear-gradient(rgb(0, 173, 181, 0.8), rgb(0, 173, 181, 0.8)), url(../img/contact.jpg);
     background-image: linear-gradient(rgba(0, 173, 181, 0.8), rgba(0, 173, 181, 0.8)), url(../img/contact.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 	color: #eeeeee;
 }
-
-@supports (-webkit-overflow-scrolling: touch) { 	body *: { 		background-attachment: scroll; 	} }
 
 .follow-me-section {
 	background-color: #393e46;
