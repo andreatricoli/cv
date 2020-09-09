@@ -2,6 +2,9 @@
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
 	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility;
 }
@@ -63,10 +66,10 @@ p {
 	margin: 10%
 }
 
-.anchor-button {
+.anchor-button:link,
+.anchor-button:visited
+ {
     text-decoration: none;
-    color: #393e46;
-	background: #eeeeee;
     width: 100%;
     padding: 10%;
     font-size: 125%;
@@ -75,6 +78,26 @@ p {
 	border-radius: 5px;
 	border-color: transparent;
 	cursor: pointer;
+}
+
+.anchor-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.anchor-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.btn-dark {
+	    color: #eeeeee;
+	background: #393e46;
+}
+
+.btn-light {
+	    color: #393e46;
+	background: #eeeeee;
 }
 
 .input-button {
@@ -126,6 +149,16 @@ p {
   color: #eeeeee;
   margin: 1rem;
   text-decoration: none;
+}
+
+.fab:hover {
+	    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.fab:active {
+	    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
 .contact-me-icon {
@@ -183,7 +216,8 @@ p {
 	  padding: 5% 15%;
 	}
   
-	.anchor-button {
+	.anchor-button:link,
+.anchor-button:visited	{
 	  padding: 6%;
 	  font-size: 200%;
 	}
@@ -226,14 +260,15 @@ p {
 	}
   
 	.profile-image {
-	  width: 55%;
+	  width: 60%;
 	}
   
 	.section {
 	  padding: 5% 25%;
 	}
   
-	.anchor-button {
+	.anchor-button:link,
+	.anchor-button:visited{
 	  padding: 6%;
 	  font-size: 200%;
 	}
@@ -276,14 +311,15 @@ p {
 	}
   
 	.profile-image {
-	  width: 50%;
+	  width: 75%;
 	}
   
 	.section {
-	  padding: 2% 30%;
+	  padding: 2% 35%;
 	}
   
-	.anchor-button {
+	.anchor-button:link,
+	.anchor-button:visited {
 	  padding: 6%;
 	  font-size: 200%;
 	}
