@@ -32,21 +32,26 @@ p {
 	background-color: #eeeeee;
 }
 
+.special-section {
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.special-section-ios-version {
+	background-size: cover;
+    background-position: center;
+}
+
 .header {
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
-    background-size: cover;
-    background-position: center;
-    /*background-attachment: fixed;*/
 	color: #eeeeee;
 }
 
 .about {
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/about_two.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/about_two.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 	color: #eeeeee;
 }
 
@@ -132,9 +137,6 @@ p {
 .get-in-touch-section {
 	background-image: -webkit-linear-gradient(rgba(0, 173, 181, 0.8), rgba(0, 173, 181, 0.8)), url(../img/contact.jpg);
     background-image: linear-gradient(rgba(0, 173, 181, 0.8), rgba(0, 173, 181, 0.8)), url(../img/contact.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 	color: #eeeeee;
 }
 
