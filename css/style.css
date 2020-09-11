@@ -37,7 +37,7 @@ p {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 	color: #eeeeee;
 }
 
